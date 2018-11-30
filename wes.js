@@ -7,8 +7,8 @@ console.log(`Logged in as ${client.user.tag}!`);
 
 
 client.on('ready', async() => {
-var server = "512556758833823764";//ايدي السيرفر
-var channel = "512556850558795777";//ايدي الروم
+var server = "518184979931332608";//ايدي السيرفر
+var channel = "518186631841447938";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا ')
 	},100);
@@ -22,4 +22,4 @@ client.on('message', message => {
    } 
 });
 
-client.login("توكن");
+client.login("NTE4MTg4NjMxODgyNDY1Mjkz.DuNIRQ.7lOUTTnUb1S9OujJ1yD0lCJ4n48");
